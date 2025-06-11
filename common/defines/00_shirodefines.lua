@@ -71,3 +71,6 @@ NDefines.NAIEconomy.FORT_FRACTION_MILITARIZE = 2.0 -- Vanilla 1.33
 NDefines.NAIEconomy.FORT_FRACTION_MILITARIST = 2.0 -- Vanilla 1.25
 NDefines.NAIEconomy.FORT_FRACTION_CAPITALIST = 2.0 -- Vanilla 0.8
 NDefines.NAIEconomy.LOAN_REPAYMENT_SAVINGS_PRIORITY_WARTIME = 0 -- Vanilla 0.5
+
+NDefines.NAI.DEVELOPMENT_CAP_BASE = 30    -- AI will not develop provinces that have more development than this or DEVELOPMENT_CAP_MULT*original development (whichever is bigger)
+NDefines.NAI.DEVELOPMENT_CAP_MULT = 1.2
