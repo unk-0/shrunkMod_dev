@@ -74,3 +74,6 @@ NDefines.NAIEconomy.LOAN_REPAYMENT_SAVINGS_PRIORITY_WARTIME = 0 -- Vanilla 0.5
 
 NDefines.NAI.DEVELOPMENT_CAP_BASE = 30    -- AI will not develop provinces that have more development than this or DEVELOPMENT_CAP_MULT*original development (whichever is bigger)
 NDefines.NAI.DEVELOPMENT_CAP_MULT = 1.2
+
+NDefines.NMilitary.NOMAD_PLAINS_SHOCK_BONUS = 0.15
+NDefines.NMilitary.NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.15
