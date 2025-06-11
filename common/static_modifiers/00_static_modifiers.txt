@@ -2293,6 +2293,8 @@ centralize_state = {
 	statewide_governing_cost = -0.2
 	local_prosperity_growth = 0.25
 	local_state_maintenance_modifier = -0.2
+	local_governing_cost_increase = -5
+
 	picture = "centralize_state"
 }
 
