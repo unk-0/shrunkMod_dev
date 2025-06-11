@@ -1262,6 +1262,7 @@ quality_ideas = {
 	}
 	escort_ships = {
 		special_unit_forcelimit = 0.15
+		global_supply_limit_modifier = 0.25
 	}
 	naval_drill = {
 		prestige_from_land = 1.0
