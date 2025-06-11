@@ -1,0 +1,20 @@
+mjl_absolutism_age_max_abso = {
+	max_absolutism = 25 }
+
+military_reform_cooldown_modifier = {
+	global_manpower = 0.001
+}
+PR_commandant_cooldown = {
+	discipline = 0.001
+}
+PR_grand_captain_cooldown = {
+	land_morale = 0.001
+}
+# France:
+france_reformed_musketeers_units = {
+	discipline = 0.025
+	regiment_manpower_usage = -0.15
+	drill_gain_modifier = 1
+	land_attrition = -0.15
+	is_musketeer_modifier = yes
+}

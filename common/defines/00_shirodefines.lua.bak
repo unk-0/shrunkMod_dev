@@ -1,0 +1,8 @@
+NDefines.NMilitary.PARTICIPATION_SCORE_BLOCKADE = 0.002 -- 0.001
+NDefines.NMilitary.PARTICIPATION_SCORE_BATTLE = 0.04 -- 0.03  -- Was 0.05
+NDefines.NMilitary.PARTICIPATION_SCORE_SIEGE = 0.01 -- 0.01  - Was 0.02
+NDefines.NMilitary.DEFAULT_WARGOAL_TICKINGWARSCORE_BONUS = 1.4 -- 0.4  -- Was 1.2
+NDefines.NMilitary.WARGOAL_MAX_BONUS = 40 -- 25
+NDefines.NMilitary.DEFAULT_WARGOAL_WARSCORE_BONUS = 6 -- 5  -- Was 8
+NDefines.NMilitary.DEFAULT_WARGOAL_BATTLESCORE_BONUS = 4 -- 3  -- Was 6, which was way too much
+NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 50 -- 40  -- Was 55

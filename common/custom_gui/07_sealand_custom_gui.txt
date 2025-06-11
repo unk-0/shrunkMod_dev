@@ -1,0 +1,12 @@
+
+##########
+# Ages:
+custom_button = {
+	name = sea_ages_button
+	trigger = { splendor = 800 }
+	effect = {
+		add_splendor = -800
+		change_government_reform_progress = 50
+	}
+	tooltip = sea_ages_button_tt
+}

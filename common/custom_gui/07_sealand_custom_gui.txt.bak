@@ -1,0 +1,60 @@
+##########
+# Shinto:
+custom_window = {
+	name = sea_shinto_isolationism_window
+	potential = { religion = shinto  }
+}
+custom_icon = {
+	name = sea_shinto_isolationism_background
+}
+custom_button = {
+	name = sea_shinto_isolationism_left
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = sea_shinto_isolationism_flag_tt
+			OR = {
+				NOT = { has_country_flag = sea_shinto_isolationism_flag }
+				had_country_flag = { flag = sea_shinto_isolationism_flag days = 3650 }
+			}
+		}
+		stability = 1
+		isolationism = 1
+	}
+	effect = {
+		set_country_flag = sea_shinto_isolationism_flag
+		add_stability = -1
+		hidden_effect = { add_isolationism = -1 }
+	}
+	tooltip = sea_shinto_isolationism_left_tt
+}
+custom_button = {
+	name = sea_shinto_isolationism_right
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = sea_shinto_isolationism_flag_tt
+			OR = {
+				NOT = { has_country_flag = sea_shinto_isolationism_flag }
+				had_country_flag = { flag = sea_shinto_isolationism_flag days = 3650 }
+			}
+		}
+		stability = 1
+		NOT = { isolationism = 4 }
+	}
+	effect = {
+		set_country_flag = sea_shinto_isolationism_flag
+		add_stability = -1
+		hidden_effect = { add_isolationism = 1 }
+	}
+	tooltip = sea_shinto_isolationism_right_tt
+}
+##########
+# Ages:
+custom_button = {
+	name = sea_ages_button
+	trigger = { splendor = 800 }
+	effect = {
+		add_splendor = -800
+		change_government_reform_progress = 50
+	}
+	tooltip = sea_ages_button_tt
+}

@@ -1,0 +1,23 @@
+
+
+on_peace_recipient = {
+	if = {
+		limit = {
+			has_country_flag = in_hundred_years_war
+			OR = {
+				tag = ENG
+				tag = FRA
+			}
+		}
+		FRA = {
+            clr_country_flag = in_hundred_years_war
+            clr_country_flag = honorable_one_v_one
+		}
+		ENG = {
+            clr_country_flag = in_hundred_years_war
+            clr_country_flag = honorable_one_v_one
+		}
+	}
+}
+
+

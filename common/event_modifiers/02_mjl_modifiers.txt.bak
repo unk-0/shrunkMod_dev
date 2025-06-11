@@ -1,0 +1,6 @@
+mjl_absolutism_age_max_abso = {
+	max_absolutism = 25 }
+
+military_reform_cooldown_modifier = {
+	global_manpower = 0.001
+}

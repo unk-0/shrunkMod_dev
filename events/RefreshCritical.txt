@@ -1,0 +1,75 @@
+###################
+# Zoroastrian Events #
+###################
+
+namespace = RefreshCritical
+
+# Parsi Safe Haven in Sanjan
+country_event = {
+	id = RefreshCritical.1
+	title = zoroastrian.1.t
+	desc = zoroastrian.1.d
+	picture = THEATRE_eventPicture
+	hidden = yes
+
+	trigger = {
+		had_country_flag = {
+			flag = commandant
+			days = 18250
+		}
+	}
+	immediate = {
+	clr_country_flag = commandant
+}
+option = {
+	name = EA Sports
+	clr_country_flag = commandant
+}
+}
+	
+	# Parsi Safe Haven in Sanjan
+country_event = {
+	id = RefreshCritical.2
+	title = zoroastrian.1.t
+	desc = zoroastrian.1.d
+	picture = THEATRE_eventPicture
+	hidden = yes
+
+	trigger = {
+		had_country_flag = {
+			flag = grand_captain
+			days = 18250
+		}
+	}
+	immediate = {
+	clr_country_flag = grand_captain
+}
+option = {
+	name = EA Sports
+	clr_country_flag = grand_captain
+}
+}
+	
+	# Parsi Safe Haven in Sanjan
+country_event = {
+	id = RefreshCritical.3
+	title = zoroastrian.1.t
+	desc = zoroastrian.1.d
+	picture = THEATRE_eventPicture
+	hidden = yes
+
+	trigger = {
+		had_country_flag = {
+			flag = military_reform
+			days = 18250
+		}
+	}
+	immediate = {
+	clr_country_flag = military_reform
+}
+option = {
+	name = EA Sports
+	clr_country_flag = military_reform
+}
+}
+

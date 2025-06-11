@@ -1,0 +1,81 @@
+spriteTypes = {
+##############
+#### AGES
+
+	spriteType = {
+		name = "GFX_age_i_autonomy"
+		texturefile = "gfx/interface/ages/age_i_autonomy.dds"
+	}
+	spriteType = {
+		name = "GFX_age_i_pp_insults"
+		texturefile = "gfx/interface/ages/age_i_pp_insults.dds"
+	}
+	spriteType = {
+		name = "GFX_age_i_cheap_ships"
+		texturefile = "gfx/interface/ages/age_i_cheap_ships.dds"
+	}
+	spriteType = {
+		name = "GFX_age_i_cheap_cannons"
+		texturefile = "gfx/interface/ages/age_i_cheap_cannons.dds"
+	}
+	spriteType = {
+		name = "GFX_age_ii_cheap_cannons"
+		texturefile = "gfx/interface/ages/age_ii_cheap_cannons.dds"
+	}
+	spriteType = {
+		name = "GFX_age_ii_provincial_trade_power"
+		texturefile = "gfx/interface/ages/age_ii_provincial_trade_power.dds"
+	}
+	spriteType = {
+		name = "GFX_age_ii_tax_everything_but_the_church_and_the_nobles"
+		texturefile = "gfx/interface/ages/age_ii_tax_everything_but_the_church_and_the_nobles.dds"
+	}
+	spriteType = {
+		name = "GFX_age_ii_cheaper_units"
+		texturefile = "gfx/interface/ages/age_ii_cheaper_units.dds"
+	}
+	spriteType = {
+		name = "GFX_age_iii_siege_ability"
+		texturefile = "gfx/interface/ages/age_iii_siege_ability.dds"
+	}
+	spriteType = {
+		name = "GFX_age_iii_recruitment_speed"
+		texturefile = "gfx/interface/ages/age_iii_recruitment_speed.dds"
+	}
+	spriteType = {
+		name = "GFX_age_iv_extra_merchant"
+		texturefile = "gfx/interface/ages/age_iv_extra_merchant.dds"
+	}
+	spriteType = {
+		name = "GFX_age_iv_african_reinforce"
+		texturefile = "gfx/interface/ages/age_iv_african_reinforce.dds"
+	}
+	spriteType = {
+		name = "GFX_age_ii_increased_mercs"
+		texturefile = "gfx/interface/ages/age_ii_increased_mercs.dds"
+	}
+	spriteType = {
+		name = "GFX_age_iii_warscore_cost"
+		texturefile = "gfx/interface/ages/age_iii_warscore_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_age_ii_colonial_focus"
+		texturefile = "gfx/interface/ages/age_ii_colonial_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_age_iii_vassal_fl"
+		texturefile = "gfx/interface/ages/age_iii_vassal_fl.dds"
+	}
+		# Button
+	spriteType = {
+		name = "GFX_sea_ages_button"
+		texturefile = "gfx/interface/sea_custom_gui/sea_ages_button.dds"
+	}
+	##############
+#### RELIGION
+	spriteType = {
+		name = "sea_shinto_background"
+		texturefile = "gfx/interface/sea_custom_gui/sea_shinto_background.dds"
+		transparencecheck = yes
+	}
+}

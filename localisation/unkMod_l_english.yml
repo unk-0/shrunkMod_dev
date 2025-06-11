@@ -1,0 +1,73 @@
+﻿l_english:
+
+ #Trade Nodes
+ north_america:0 "North America"
+ #Age abillities
+ ab_swedish_uprising:0 "Swedish Uprising"
+ ab_austrian_dominance:0 "Austrian Dominance"
+ #Events
+  #France
+   #Independance of English mainland holdings
+ unk_flavor_fra.1.a:0 "They were of no use to us anyways"
+ unk_flavor_fra.1.t:0 "French Ducal Holdings Rebel"
+ unk_flavor_fra.1.d:0 "There's nothing we can do about it."
+   #France surrendering 100 year war - (English side)
+ unk_flavor_fra.2.a:0 "Typical"
+ unk_flavor_fra.2.t:0 "France Surrenders"
+ unk_flavor_fra.2.d:0 "France is flying the white flag and it's finally time to end the one hundred years of conflict."
+   #France surrendering 100 year war - (French side)
+ unk_flavor_fra.3.a:0 "Rather unfortunate"
+ unk_flavor_fra.3.t:0 "The king has been captured"
+ unk_flavor_fra.3.d:0 "With our sovereign in their hands and no hope of reclaiming the city, we have but one choice... We must send forth our terms of surrender."
+   #England loses the 100 years war
+ unk_flavor_fra.4.a:0 "They better stay on their island!"
+ unk_flavor_fra.4.t:0 "The English Concede"
+ unk_flavor_fra.4.d:0 "After over a century of conflict, England finally concedes defeat in the Hundred Years' War. England, facing internal strife and financial ruin, agrees to a peace treaty with France, ceding Normandy, Aquitaine, and other French territories. The English withdraw their claim to the French throne, acknowledging France’s dominance."
+
+ #Modifiers
+ winners_of_hundred_year_war:0 "Lessons of the hundred years war"
+ honorable_one_v_one:0 "Honorable 1v1"
+ illegal:0 "Prevention of Terrorism Act"
+ #Policies
+ #Innovative
+ h_spy_innovativeness:0 "The Art Of Gaslighting"
+ h_diplomatic_innovativeness:0 "Union Of Prosperity"
+ h_trade_innovativeness:0 "Creative Negotiators"
+ h_exploration_innovativeness:0 "Efficient Village Building"
+ h_influence_innovativeness:0 "The Courtesy Of The Court"
+ h_court_innovativeness:0 "Meritocratic Bureaucracy"
+ h_maritime_innovativeness:0 "Naval Doctrine"
+ h_aristocracy_innovativeness:0 "Armoured Knights"
+ h_plutocracy_innovativeness:0 "Accountable Leadership"
+ h_theocracy_gov_innovativeness:0 "Motivated Populace"
+ h_offensive_innovativeness:0 "Protected Supply Lines"
+ h_defensive_innovativeness:0 "Cautious Outlook"
+ h_quality_innovativeness:0 "Modern Firearm Techniques"
+ h_quantity_innovativeness:0 "Army Modernisation"
+ #Religious
+ h_spy_religious:0 "Enforced Beliefs"
+ h_diplomatic_religious:0 "Policy Of Calculated Delay"
+ h_trade_religious:0 "Religiously Sponsored Guilds"
+ h_exploration_religious:0 "Convert The Infidels"
+ h_influence_religious:0 "Re-Education Camps"
+ h_court_religious:0 "Divine Mission"
+ h_maritime_religious:0 "The Faith at Sea Policy"
+ h_aristocracy_religious:0 "The Noble Covenant Act"
+ h_plutocracy_religious:0 "The Holy Prosperity Initiative"
+ h_theocracy_gov_religious:0 "The Celestial Fellowship Pact"
+ h_offensive_religious:0 "Sacred Command Authority"
+ h_defensive_religious:0 "Heavenly Protection"
+ h_quality_religious:0 "Religious Admirals"
+ h_quantity_religious:0 "Field Priests and Soldier's Prayer Books"
+
+ #Idea Groups
+ faster_integration_desc:0 "The approach focuses on establishing local governance, essential services, and infrastructure while offering economic incentives and opportunities for local participation to strengthen loyalty and integration."
+ faster_integration:0 "Faster Integration"
+ justified_reasons:0 "Justified Reasons"
+ justified_reasons_desc:0 "A country may justify war against neighbors if their actions threaten national security, sovereignty, or stability, arguing that military action is necessary to defend borders, protect citizens, or maintain peace."
+
+ #Development Counter
+ development_counter_title:0 "£sea_development_logo£Dev Clicks Counter"
+ development_counter_desc:0 ""
+ development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §G[Root.dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §G[Root.mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §G[Root.total_dev_counter.GetValue]§!"
+ development_counter_update_tt:0 "Add §YDevelopment Improvement Counter§!".

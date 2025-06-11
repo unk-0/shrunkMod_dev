@@ -1,0 +1,33 @@
+country_decisions = {
+	# PR decision to check if critical events have fired
+	PR_critical_events = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = PR_radical_reform_decision
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_military_reform_decision
+				NOT = { has_country_flag = military_reform }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_commandant_decision
+				NOT = { has_country_flag = commandant }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_grand_captain_decision
+				NOT = { has_country_flag = grand_captain }
+			}
+			always = no
+		}
+		effect = {
+		}
+	}
+}
