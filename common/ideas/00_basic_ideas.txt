@@ -264,7 +264,8 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.075
+		advisor_cost = -0.01
+		global_trade_goods_size_modifier = 0.1
 	}
 
 	patron_of_art  = {
