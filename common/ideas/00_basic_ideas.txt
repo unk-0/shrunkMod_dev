@@ -557,7 +557,7 @@ offensive_ideas = {
 
 	bayonet_leaders = {
 		leader_land_shock = 1
-		shock_damage = 0.1
+		shock_damage = 0.05
 	}
 	national_conscripts = {
 		movement_speed = 0.1
@@ -566,7 +566,7 @@ offensive_ideas = {
 	}
 	superior_firepower = {
 		army_tradition = 0.5
-		artillery_cost = -0.10	
+		fire_damage = 0.10	
 	}
 	glorious_arms = {
 		siege_ability = 0.2
