@@ -1254,7 +1254,7 @@ quality_ideas = {
 		drill_decay_modifier = -0.15
 	}
 	quality_education = {
-		infantry_power = 0.1
+		infantry_power = 0.15
 	}
 	finest_of_horses = {
 		army_tradition = 0.5
@@ -1271,7 +1271,7 @@ quality_ideas = {
 		yearly_army_professionalism = 0.005
 	}
 	massed_battery = {
-		artillery_power = 0.1
+		artillery_power = 0.125
 	}
 
 	ai_will_do = {
