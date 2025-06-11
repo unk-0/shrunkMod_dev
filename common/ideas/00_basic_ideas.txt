@@ -662,14 +662,14 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		military_tactics = 0.7
+		military_tactics = 0.07
 	}
 
 	battlefield_commisions = {
 		shock_damage_received = -0.1
 	}
 	military_drill = {
-		morale_damage_received = -0.1
+		morale_damage_received = -0.2
 	}
 	improved_manuever = {
 		reinforce_speed = 0.25
@@ -690,7 +690,7 @@ defensive_ideas = {
 		may_refill_garrison = yes	
 	}
 	improved_foraging = {
-		fire_damage_received = -0.1
+		fire_damage_received = -0.05
 		war_exhaustion = -0.05
 		effect = {
 			hidden_effect = {
