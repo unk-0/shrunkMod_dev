@@ -113,7 +113,7 @@ temple = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_tax_modifier = 0.6
+		local_tax_modifier = 0.5
 	}
 	on_built = {
 		on_built_tax_building_effect = yes
