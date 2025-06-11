@@ -244,12 +244,14 @@ provincial_tax_income = {
 	local_great_project_upgrade_time = -0.01
 	local_build_time = -0.01
 	local_institution_spread = 0.02
-	tax_income = 0.2
+	tax_income = 0.1
+	local_tax_modifier = 0.015
 	local_garrison_size = 0.02
 }
 
 provincial_production_size = {
-	trade_goods_size = 0.2
+	trade_goods_size = 0.17
+	trade_goods_size_modifier = 0.01
 	ship_recruit_speed = -0.01
 }
 
@@ -2292,6 +2294,8 @@ centralize_state = {
 	statewide_governing_cost = -0.2
 	local_prosperity_growth = 0.25
 	local_state_maintenance_modifier = -0.2
+	local_governing_cost_increase = -5
+
 	picture = "centralize_state"
 }
 
