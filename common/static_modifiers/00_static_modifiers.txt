@@ -244,7 +244,8 @@ provincial_tax_income = {
 	local_great_project_upgrade_time = -0.01
 	local_build_time = -0.01
 	local_institution_spread = 0.02
-	tax_income = 0.2
+	tax_income = 0.1
+	local_tax_modifier = 0.015
 	local_garrison_size = 0.02
 }
 
