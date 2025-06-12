@@ -2212,10 +2212,10 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 500
+	cost = 450
 	time = 60
 	modifier = {
-		trade_goods_size = 1.0
+		trade_goods_size = 0.8
 	}
 }
 
@@ -2664,9 +2664,11 @@ ramparts = {
 }
 
 soldier_households = {
-	manufactory = {
-		all
-	}
+	#manufactory = {
+	#	all
+	#}
+	cost = 420
+	time = 30
 
 	bonus_manufactory = { # Will apply an extra modifier if these goods
 		grain
@@ -2676,10 +2678,10 @@ soldier_households = {
 	}
 
 	modifier = {
-		local_manpower = 0.75
+		local_manpower = 0.5
 	}
 	bonus_modifier = {
-		local_manpower = 0.75
+		local_manpower = 0.5
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
