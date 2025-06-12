@@ -465,7 +465,7 @@ devastation = {
 }
 
 prosperity = {
-	local_development_cost = -0.75
+	local_development_cost = -0.075
 	trade_goods_size_modifier = 0.25
 	local_autonomy = -0.05
 }
