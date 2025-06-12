@@ -1521,6 +1521,7 @@ administrative_ideas = {
 	}
 	local_rule = {
 		all_estate_possible_privileges = 1
+		 centralize_state_cost = -0.5
 	}
 	adaptability = {
 		autonomy_change_time = -0.25
@@ -1528,7 +1529,7 @@ administrative_ideas = {
 	}
 	centralization = {
 		reinforce_speed = 0.2
-		reinforce_cost_modifier = -0.1
+		global_tax_modifier = 0.2
 	}
 	stable_government = {
 		stability_cost_modifier = -0.1
