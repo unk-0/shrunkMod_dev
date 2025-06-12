@@ -179,7 +179,7 @@ theocracy_gov_ideas = {
 		war_exhaustion_cost = -0.33
 	}
 	flesh_is_weak = {
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	alpha_and_omega = {
 		enforce_religion_cost = -0.3
