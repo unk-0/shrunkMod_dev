@@ -113,7 +113,7 @@ temple = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_tax_modifier = 0.6
+		local_tax_modifier = 0.5
 	}
 	on_built = {
 		on_built_tax_building_effect = yes
@@ -1230,10 +1230,10 @@ cathedral = {
 
 
 university = {
-	cost = 300
+	cost = 200
 	time = 12
 	modifier = {
-		local_development_cost = -0.20
+		local_development_cost = -0.15
 		allowed_num_of_buildings = 1
 	}
 
@@ -2212,10 +2212,10 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 500
+	cost = 450
 	time = 60
 	modifier = {
-		trade_goods_size = 1.0
+		trade_goods_size = 0.8
 	}
 }
 
@@ -2602,14 +2602,14 @@ ramparts = {
 		}
 	}
 	modifier = {
-		max_attrition = 2
-		local_hostile_attrition = 3
-		local_defensiveness = 0.25
+		max_attrition = 1
+		local_hostile_attrition = 2
+		local_defensiveness = 0.20
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 
-	on_built = {
+	#on_built = {
 		add_dev_from_building = {
 			building = manufactory 
 			type = manpower 
@@ -2664,9 +2664,11 @@ ramparts = {
 }
 
 soldier_households = {
-	manufactory = {
-		all
-	}
+	#manufactory = {
+	#	all
+	#}
+	cost = 420
+	time = 30
 
 	bonus_manufactory = { # Will apply an extra modifier if these goods
 		grain
@@ -2676,10 +2678,10 @@ soldier_households = {
 	}
 
 	modifier = {
-		local_manpower = 0.75
+		local_manpower = 0.5
 	}
 	bonus_modifier = {
-		local_manpower = 0.75
+		local_manpower = 0.5
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -2749,12 +2751,12 @@ impressment_offices = {
 	}
 
 	modifier = {
-		local_sailors = 250
+		local_sailors = 500
 		ship_recruit_speed = -0.1
 		local_ship_cost = -0.05
 	}
 	bonus_modifier = {
-		local_sailors = 250
+		local_sailors = 500
 		ship_recruit_speed = -0.1
 		local_ship_cost = -0.05
 	}
