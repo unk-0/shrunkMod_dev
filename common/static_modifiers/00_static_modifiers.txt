@@ -251,7 +251,7 @@ provincial_tax_income = {
 
 provincial_production_size = {
 	trade_goods_size = 0.17
-	trade_goods_size_modifier = 0.01
+	trade_goods_size_modifier = 0.02
 	ship_recruit_speed = -0.01
 }
 
@@ -337,7 +337,6 @@ core = {
 	local_tax_modifier = 0.75				#90% more in a core
 	local_manpower_modifier = 0.75			#75% more in a core
 	local_sailors_modifier = 0.75
-	local_development_cost = -0.1
 }
 
 non_core = {
@@ -415,16 +414,16 @@ same_culture_group = {
 
 non_accepted_culture = {
 	monthly_persian_influence = -0.01
-	local_tax_modifier = -0.33
+	local_tax_modifier = -0.66
 	local_missionary_strength = -0.02
-	local_manpower_modifier = -0.33
+	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.2
 	local_unrest = 2					#1% revolt risk!
 	local_governing_cost = 0.1
 }
 
 accepted_culture_demoted = {
-	local_unrest = 5
+	local_unrest = 2
 }
 
 # Special modifier to the above, for non-tribal republics
@@ -459,7 +458,6 @@ devastation = {
 	trade_goods_size_modifier = -2
 	supply_limit_modifier = -0.5
 	local_institution_spread = -2.0
-	local_development_cost = 0.2
 	local_manpower_modifier = -2.0
 	local_sailors_modifier = -2.0
 	local_hostile_movement_speed = -0.25
@@ -467,7 +465,7 @@ devastation = {
 }
 
 prosperity = {
-	local_development_cost = -0.1
+	local_development_cost = -0.75
 	trade_goods_size_modifier = 0.25
 	local_autonomy = -0.05
 }
