@@ -4532,6 +4532,7 @@ norwegian_parliamentary_monarchy = {
 		global_unrest = -1
 		max_absolutism = -30
 		nobles_influence_modifier = -0.1
+		years_to_integrate_personal_union = -40
 	}
 
 	conditional = {
