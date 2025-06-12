@@ -264,7 +264,7 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.01
+		advisor_cost = -0.1
 		global_trade_goods_size_modifier = 0.1
 	}
 
