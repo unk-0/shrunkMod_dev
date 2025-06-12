@@ -836,7 +836,7 @@ trade_efficiency = {
 }
 
 production_efficiency = {
-	#colonist_placement_chance = 0.2			#0.2 for each 1% of PE (ie, if 100% PE, 20% bonus added.)
+	colonist_placement_chance = 0.05			#0.2 for each 1% of PE (ie, if 100% PE, 20% bonus added.)
 }
 
 trade_refusal = {
