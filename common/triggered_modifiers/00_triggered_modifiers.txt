@@ -19,6 +19,20 @@ illegal = {
 	mercenary_discipline = -0.05
 }
 
+dog = {
+	potential = {
+		ai = no
+		is_subject = yes
+	}
+
+	trigger = {
+		ai = no
+		is_subject = yes
+	}
+
+	development_cost = 0.5
+
+}
 
 #########################################################
 # African Frontiers
