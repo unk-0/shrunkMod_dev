@@ -414,7 +414,7 @@ same_culture_group = {
 
 non_accepted_culture = {
 	monthly_persian_influence = -0.01
-	local_tax_modifier = -0.66
+	local_tax_modifier = -0.5
 	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.2
